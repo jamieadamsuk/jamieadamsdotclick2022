@@ -1,0 +1,8 @@
+baseURL = 'http://static.jamieadams.click/'
+languageCode = 'en-us'
+title = 'HINGED'
+theme = 'v1001'
+author = "Jamie"
+[params]
+  mainSections = ['stream', 'bookshelf', 'essays']
+

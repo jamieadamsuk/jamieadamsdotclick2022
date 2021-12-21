@@ -1,0 +1,87 @@
+{{ partial "header.html" . }}
+{{ partial "masthead.html" . }}
+<main class="container">
+    <header>
+        <div class="page-title">
+            <h2 class="title">{{ .Title }}</h2>
+        </div>
+        <div class="page-info">
+            <p>I've kept a record of the books that I've read since 2012. Since 2021, I've been trying to write-up my thoughts on the book.</p>
+            <p>My rating system goes something like this:</p>
+            <table class="book-ratings-table">
+                <tr>
+                    <td style="width:120px;">👍</td>
+                    <td>Terrible. I finished it so you don't have to.</td>
+                </tr>
+                <tr>
+                    <td>👍👍</td>
+                    <td>Dissapointing. Not recommended.</td>
+                </tr>
+                <tr>
+                    <td>👍👍👍</td>
+                    <td>Met my expections. A solid book.</td>
+                </tr>
+                <tr>
+                    <td>👍👍👍👍</td>
+                    <td>Really enjoyable. A great book.</td>
+                </tr>
+                <tr>
+                    <td>👍👍👍👍👍</td>
+                    <td>Blown away. An incredible book.</td>
+                </tr>
+            </table>
+            <p>Books read prior to 2021 are listed <a href="https://www.craft.do/s/ZJqyVA9k54oudb">here</a>.</p>
+        </div>
+    </header>
+
+    <div class="stream-filter">
+        <div><strong>Apply Filter</strong></div>
+            <div>
+                <label for="all">
+                    <input value="all" type="radio" name="filter">
+                    All books
+                </label>
+                
+                <label for="fiction">
+                    <input value="fiction" type="radio" name="filter">
+                    Fiction
+                </label>
+                
+                <label for="non-fiction">
+                    <input value="non-fiction" type="radio" name="filter">
+                    Non-Fiction
+                </label>
+            </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('input[type="radio"]').click(function() {
+                var inputValue = $(this).attr("value");
+                var targetBox = $("." + inputValue);
+                $(".stream-item").not(targetBox).hide();
+                $(targetBox).show();
+            });
+        });
+    </script>
+    <div class="stream-container">
+        {{ range .Data.Pages }}
+        <div class="stream-item {{ .Params.genre }} all">
+            <div class="stream-meta">
+            <img src="/images/books/{{ .Params.coverImage }}" class="book-cover" />
+            </div>
+            <div class="stream-item-content">
+            <div class="stream-item-header"><a name="{{ .File.TranslationBaseName }}"><a href="#{{ .File.TranslationBaseName }}">{{ .Title }}</a></a></div>
+            <div class="stream-item-book-metadata">
+                <div class="book-author">Author: {{ .Params.author }}</div>
+                <div class="book-rating">Rating: {{ .Params.rating }}</div>
+                <div class="books-date-read">Completed: <time>{{ .Date | time.Format ":date_long" }}</time></div>
+            </div>
+            <div class="stream-item-entry">{{ .Content }}</div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+</main>
+
+{{ partial "footer.html" . }}

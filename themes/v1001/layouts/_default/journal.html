@@ -1,0 +1,31 @@
+{{ partial "header.html" . }}
+{{ partial "masthead.html" . }}
+<main class="container">
+  <header>
+  <div class="page-title">
+    <h2 class="title">{{ .Title }}</h2>
+  </div>
+  <div class="page-info">
+    {{ .Content }}
+  </div>
+  <div class="notice1">
+    <strong>Updates are broadcast via RSS</strong>
+  </div>
+  </header>
+  <div class="stream-container">
+    {{ range .Data.Pages }}
+    <div class="stream-item">
+      <div class="stream-meta">
+        <time>{{ .Date | time.Format ":date_short" }}</time>
+      </div>
+      <div class="stream-item-content">
+        <div class="stream-item-header"><a name="{{ .File.TranslationBaseName }}"><a href="#{{ .File.TranslationBaseName }}">{{ .Title }}</a></a></div>
+        <div class="stream-item-entry">{{ .Content }}</div>
+      </div>
+    </div>
+    {{ end }}
+
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
