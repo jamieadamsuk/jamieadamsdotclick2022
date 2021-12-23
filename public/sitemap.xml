@@ -11,14 +11,17 @@
     <loc>http://static.jamieadams.click/stream/</loc>
     <lastmod>2021-12-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://static.jamieadams.click/bookshelf/carnival-of-snackery/</loc>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://static.jamieadams.click/categories/book/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/bookshelf/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/categories/</loc>
-    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2021-12-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/bookshelf/the-best-of-me/</loc>
     <lastmod>2021-11-27T00:00:00+00:00</lastmod>
@@ -62,7 +65,10 @@
     <loc>http://static.jamieadams.click/bookshelf/billy-summers/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://static.jamieadams.click/stream/electronic-ink/</loc>
+    <loc>http://static.jamieadams.click/essays/electronic-ink/</loc>
+    <lastmod>2021-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://static.jamieadams.click/essays/</loc>
     <lastmod>2021-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/stream/beacon-of-positivity/</loc>
@@ -224,7 +230,7 @@
     <loc>http://static.jamieadams.click/stream/rating-stuff/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://static.jamieadams.click/stream/the-everything-store/</loc>
+    <loc>http://static.jamieadams.click/essays/the-everything-store/</loc>
     <lastmod>2021-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/stream/dancing-in-the-dark/</loc>
@@ -291,9 +297,6 @@
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/essays/converting-my-shed-to-an-office/</loc>
-    <lastmod>2020-07-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://static.jamieadams.click/essays/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://static.jamieadams.click/essays/rss-makes-the-web-tolerable-again/</loc>

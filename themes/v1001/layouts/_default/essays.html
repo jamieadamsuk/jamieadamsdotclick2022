@@ -9,7 +9,7 @@
   {{ .Content }}
   {{ range .Data.Pages }}
   <div class="item">
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <h3><a href="{{ .Permalink }}" class="black">{{ .Title }}</a></h3>
       <p>{{ .Params.intro }}</p>
   </div>
   {{ end }}

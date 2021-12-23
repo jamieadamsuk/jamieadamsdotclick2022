@@ -5,25 +5,6 @@
     --accent2: #d9d9d9;
 }
 
-@font-face {
-  src:url(/fonts/FernVariable-Roman-VF.woff2) format("woff2");
-  font-family:"Fern Web";
-  font-style:normal;
-  font-weight:400 800;
-  font-display:swap
- }
- @font-face {
-  src:url(/fonts/FernVariable-Italic-VF.woff2) format("woff2");
-  font-family:"Fern Web";
-  font-style:italic;
-  font-weight:400 800;
-  font-display:swap
- }
-
- .sans-serif {
-   font-family: 'Fern Web',Georgia,"Times New Roman",Times,serif;
- }
-
 /* RESET */
 
 html {
@@ -47,6 +28,11 @@ height: auto;
 border-radius: 7.5px;
 }
 
+.page-content > figure > img {
+  display: block;
+  margin: 0px auto;
+}
+
 html {
 font-size: 18px;
 }
@@ -65,7 +51,6 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 20px);
   padding: 0 1rem;
   }
 
@@ -105,7 +90,7 @@ h2 {
 
 h3 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
@@ -116,7 +101,7 @@ line-height: 1.3
 
 figcaption {
 text-align: center;
-font-size: 75%;
+font-size: 70%;
 }
 
 a {
@@ -141,7 +126,7 @@ ul {
 .notice {
 	background-color: #edeae6;
 	padding: 1em;
-	font-size: 14px;
+	font-size: 0.9rem;
 	border-radius: 5px;
 	margin-bottom: 2em;
 	margin-top: 1em;
@@ -291,14 +276,13 @@ footer {
 .homepage-intro {
   font-size: 115%;
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .homepage-intro > p:nth-child(1) {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.2;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.4px;
  }
  
 .homepage-grid {
@@ -329,6 +313,7 @@ footer {
 
 .item {
   border-bottom: 1px solid var(--accent2);
+  margin: 0 .5rem 0 0.5rem;
 }
 
 /* STREAM */
@@ -430,7 +415,15 @@ footer {
 }
 
 .light-blue {
-  background-color: #deebef;
+  background-color: #deeced;
+}
+
+.black {
+  color: black;
+}
+
+small {
+  font-size: 60%;
 }
 
 @media only screen and (min-width: 550px) {
@@ -461,6 +454,38 @@ footer {
     display: unset;
   }
 
+  .item {
+    border-bottom: 1px solid var(--accent2);
+    margin: 0 1rem 0 1rem;
+  }
+
+  .homepage-intro > p:nth-child(1) {
+    font-size: 1.8rem;
+   }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+  .stream-container {
+    padding: 0 10px 0px 30px;
+  }
+
+  .stream-container::before {
+    left: 0px;
+  }
+
+  div.stream-item::after {
+    left: -36px;
+  }
+
+  div.stream-item {
+    padding: 3px 0 0 0px;
+  }
+
+  .stream-item-entry > p {
+    font-size: 95%;
+  }
 }
 
 @media only screen and (min-width: 750px) {

@@ -10,4 +10,6 @@ I lose stuff all the time. AirTags are the hi-tech solution from Apple, but I do
 
 Still, this tweet from Dan Guido offers an interesting insight into their possibilities.
 
-{{< tweet 1424921645483966466 >}}
+{{< tweet user="dguido" id="1424921645483966466" >}}
+
+

@@ -1,22 +1,24 @@
 {{ partial "header.html" . }}
 {{ partial "masthead.html" . }}
 <main class="container">
-  <header>
-  <div class="page-title">
-    <h1 class="title">{{ .Title }}</h1>
+  <div class="page-content">
+    <header>
+    <div class="page-title">
+      <h1 class="title">{{ .Title }}</h1>
+    </div>
+    {{ if .Params.intro }}
+    <div class="page-intro">
+      {{ .Params.intro }}
+    </div>
+    {{ end }}
+    {{ if .Params.notice }}
+    <div class="notice">
+      <strong>{{ .Params.notice }}</strong>
+    </div>
+    {{ end }}
+    </header>
+    {{ .Content }}
   </div>
-  {{ if .Params.intro }}
-  <div class="page-intro">
-    {{ .Params.intro }}
-  </div>
-  {{ end }}
-  {{ if .Params.notice }}
-  <div class="notice">
-    <strong>{{ .Params.notice }}</strong>
-  </div>
-  {{ end }}
-  </header>
-  {{ .Content }}
 </main>
 
 {{ partial "footer.html" . }}

@@ -1,5 +1,7 @@
 ---
 title: "Electronic Ink"
+layout: page
+intro: "E-INK is one piece of technology that I own that acts as an antidote to all the other technology I own"
 date: 2021-09-19
 ---
 At midnight on July 15th 2005, thousands of people were queueing to get their hands on a hardback copy of Harry Potter & The Half-Blood Prince. I sat at home and waited. Taking advantage of time-zones, a worldwide army of volunteers coordinated a massive transcription effort and released it as an ebook, which I read in my Palm PDA the next morning. That was my first experience of reading fiction electronically, and while imperfect, it worked.
