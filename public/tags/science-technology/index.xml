@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>science-technology on HINGED</title>
-    <link>http://static.jamieadams.click/tags/science-technology/</link>
+    <link>https://hinged.blog/tags/science-technology/</link>
     <description>Recent content in science-technology on HINGED</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://static.jamieadams.click/tags/science-technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hinged.blog/tags/science-technology/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

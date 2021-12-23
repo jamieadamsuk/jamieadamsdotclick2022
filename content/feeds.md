@@ -19,7 +19,7 @@ Here are links to my feeds:
 - Essays: [https://jamieadams.click/essays/index.xml](https://jamieadams.click/essays/index.xml)
 - Bookshelf: [https://jamieadams.click/bookshelf/index.xml](https://jamieadams.click/bookshelf/index.xml)
 
-I wrote about why I like RSS here: [RSS makes the web tolerable again](http://static.jamieadams.click/essays/rss-makes-the-web-tolerable-again/)
+I wrote about why I like RSS here: [RSS makes the web tolerable again](https://hinged.blog/essays/rss-makes-the-web-tolerable-again/)
 
 Here are some feed readers that I recommend. Each offers a generous free tier, so you can dive in without paying a thing:
 

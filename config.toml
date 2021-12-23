@@ -1,4 +1,4 @@
-baseURL = 'http://static.jamieadams.click/'
+baseURL = 'https://hinged.blog/'
 languageCode = 'en-us'
 title = 'HINGED'
 theme = 'v1001'

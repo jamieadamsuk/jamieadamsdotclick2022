@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tech on HINGED</title>
-    <link>http://static.jamieadams.click/tags/tech/</link>
+    <link>https://hinged.blog/tags/tech/</link>
     <description>Recent content in tech on HINGED</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://static.jamieadams.click/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://hinged.blog/tags/tech/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
