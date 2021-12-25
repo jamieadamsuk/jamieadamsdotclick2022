@@ -279,7 +279,6 @@ footer {
 }
 
 .homepage-intro > p:nth-child(1) {
-  font-size: 1.5rem;
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: -0.4px;
@@ -458,10 +457,6 @@ small {
     border-bottom: 1px solid var(--accent2);
     margin: 0 1rem 0 1rem;
   }
-
-  .homepage-intro > p:nth-child(1) {
-    font-size: 1.8rem;
-   }
 
 }
 

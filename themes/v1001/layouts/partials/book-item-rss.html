@@ -1,0 +1,7 @@
+    <img src="/images/books/{{ .Params.coverImage }}" class="book-cover" />
+    <ul>
+    <li>Author: {{ .Params.author }}</li>
+    <li>Rating: {{ .Params.rating }}</li>
+    <li>Completed: <time>{{ .Date | time.Format ":date_long" }}</time></li>
+    </ul>
+    {{ .Content }}
