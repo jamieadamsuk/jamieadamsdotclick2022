@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/feed/"
+  to = "/index.xml"
+  status = 301
+  force = true
