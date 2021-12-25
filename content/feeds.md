@@ -15,6 +15,8 @@ The Guardian, The BBC, Reddit, YouTube, The Atlantic and hundreds of thousands o
 
 Here are links to my feeds:
 
+-- Everything: [https://hinged.blog/stream/index.xml](https://hinged.blog/index.xml)
+
 - Stream: [https://hinged.blog/stream/index.xml](https://hinged.blog/stream/index.xml)
 - Essays: [https://hinged.blog/essays/index.xml](https://hinged.blog/essays/index.xml)
 - Bookshelf: [https://hinged.blog/bookshelf/index.xml](https://hinged.blog/bookshelf/index.xml)
