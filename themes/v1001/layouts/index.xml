@@ -44,7 +44,7 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>https://hinged.blog/bookshelf/#{{ .File.TranslationBaseName }}</guid>
-      <description>{{ "<![CDATA[" | safeHTML }} {{ partial "book-item-rss.html" }}]]><hr />This is the full site feed. Too much stuff? Try one of the <a href="https://hinged.blog/feeds/">section feeds</a> instead.</description>
+      <description>{{ "<![CDATA[" | safeHTML }} {{ partial "book-item-rss.html" . }}]]><hr />This is the full site feed. Too much stuff? Try one of the <a href="https://hinged.blog/feeds/">section feeds</a> instead.</description>
     </item>
     {{ else }}
        <item>
