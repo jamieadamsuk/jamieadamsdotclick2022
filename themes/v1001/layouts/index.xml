@@ -12,7 +12,8 @@
 {{- end -}}
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
@@ -35,7 +36,8 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>https://hinged.blog/stream/#{{ .File.TranslationBaseName }}</guid>
-      <description>{{ .Content | html }}<hr />This is the full site feed. Too much stuff? Try one of the <a href="https://hinged.blog/feeds/">section feeds</a> instead.</description>
+      <description>{{ "<![CDATA[" | safeHTML }} {{ .Summary }}]]></description>
+      <content:encoded>{{ "<![CDATA[" | safeHTML }} {{ .Content }}]]></content:encoded>
     </item>
     {{ else if eq .Section "bookshelf" }}
        <item>
@@ -53,7 +55,8 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Content | html }}<hr />This is the full site feed. Too much stuff? Try one of the <a href="https://hinged.blog/feeds/">section feeds</a> instead.</description>
+      <description>{{ "<![CDATA[" | safeHTML }} {{ .Summary }}]]></description>
+      <content:encoded>{{ "<![CDATA[" | safeHTML }} {{ .Content }}]]></content:encoded>
     </item>
     {{ end }}
     {{ end }}
