@@ -3,6 +3,7 @@ title: "The Kingdoms"
 author: "Natasha Pulley"
 date: "2022-01-03"
 rating: "👍👍👍👍👍"
+genre: "fiction"
 categories: 
   - "book"
 coverImage: "thekingdoms.jpeg"
