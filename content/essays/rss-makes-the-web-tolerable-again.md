@@ -47,7 +47,7 @@ All of these have mobile applications - some have desktop companions too. I use 
 
 **Step 2:**
 
-Subscribe to some feeds. Most readers will automatically find the feed if you put in the address of the homepage. If you’re short of inspiration you could take a look at my [blogroll](https://hinged.blog/blogroll/).
+Subscribe to some feeds. Most readers will automatically find the feed if you put in the address of the homepage. If you’re short of inspiration you could take a look at my [blogroll](https://jamieadams.click/blogroll/).
 
 **Step 3:**
 

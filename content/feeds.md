@@ -15,12 +15,12 @@ The Guardian, The BBC, Reddit, YouTube, The Atlantic and hundreds of thousands o
 
 Here are links to my feeds:
 
-- Everything: [https://hinged.blog/stream/index.xml](https://hinged.blog/index.xml)
-- Stream: [https://hinged.blog/stream/index.xml](https://hinged.blog/stream/index.xml)
-- Essays: [https://hinged.blog/essays/index.xml](https://hinged.blog/essays/index.xml)
-- Bookshelf: [https://hinged.blog/bookshelf/index.xml](https://hinged.blog/bookshelf/index.xml)
+- Everything: [https://jamieadams.click/stream/index.xml](https://jamieadams.click/index.xml)
+- Stream: [https://jamieadams.click/stream/index.xml](https://jamieadams.click/stream/index.xml)
+- Essays: [https://jamieadams.click/essays/index.xml](https://jamieadams.click/essays/index.xml)
+- Bookshelf: [https://jamieadams.click/bookshelf/index.xml](https://jamieadams.click/bookshelf/index.xml)
 
-I wrote about why I like RSS here: [RSS makes the web tolerable again](https://hinged.blog/essays/rss-makes-the-web-tolerable-again/)
+I wrote about why I like RSS here: [RSS makes the web tolerable again](https://jamieadams.click/essays/rss-makes-the-web-tolerable-again/)
 
 Here are some feed readers that I recommend. Each offers a generous free tier, so you can dive in without paying a thing:
 
