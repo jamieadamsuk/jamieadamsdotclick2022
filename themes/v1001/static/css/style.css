@@ -172,47 +172,9 @@ footer {
   display: flex;
 }
 
-.logo-top {
-  width: 150px;
-  position: relative;
-  top: 30px;
-  filter: invert(22%) sepia(97%) saturate(2851%) hue-rotate(357deg) brightness(89%) contrast(93%);
-  z-index: 1;
+.logo > a > svg {
+  height: 50px;
 }
-
-.logo-top:in-range {
-  animation: logo-top-anim 1s ease 0s 1 reverse forwards;
-}
-
-.logo-bottom {
-  position: relative;
-  top: 23.6px;
-  width: 150px;
-  transform: scaleY(-1);
-  filter: invert(98%) sepia(1%) saturate(0%) hue-rotate(81deg) brightness(113%) contrast(76%);
-}
-
-.logo-top-item {
-  will-change: transform;
-  transition: transform 450ms;
-}
-
-.logo-top-span:hover .logo-top {
-    transition: transform 1250ms;
-    transform: rotate(-10deg);
-    transform-origin: bottom left;
-    transition-delay: 300ms;
-  }
-
-.logo-hinge {
-  width:15px;
-  position: relative;
-  left: -8px;
-  top: -26px;
-  z-index: 2;
-}
-
-
 
 .logo > a {
   text-decoration: none;
