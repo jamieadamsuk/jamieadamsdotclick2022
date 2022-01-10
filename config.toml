@@ -1,8 +1,7 @@
 baseURL = 'https://jamieadams.click/'
 languageCode = 'en-us'
-title = 'HINGED'
+title = 'Jamie'
 theme = 'v1001'
 author = "Jamie"
 [params]
   mainSections = ['stream', 'bookshelf', 'essays']
-
