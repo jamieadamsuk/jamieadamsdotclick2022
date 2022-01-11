@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+{{ partial "masthead.html" . }}
+<main class="container">
+  <header>
+  <div class="page-title">
+    <h1 class="title">{{ .Title }}</h1>
+  </div>
+  </header>
+  {{ .Content }}
+  <section class="eink-items">
+  {{ range .Data.Pages }}
+    <div class="eink-item">
+      <a href="/images/eink/{{ .Params.image }}" class="black">
+      <img class="eink-item-img" src="/images/eink/{{ .Params.image }}" />
+      </a>
+      <div class="eink-item-title">{{ .Title }}</div>
+    </div>
+    {{ end }}
+  </section>
+</main>
+
+{{ partial "footer.html" . }}

@@ -163,6 +163,31 @@ footer {
   margin-bottom: 1rem;
   color: var(--site-body-light);
  }
+
+.eink-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.eink-item {
+  max-width: 45%;
+  padding-bottom: 2rem;
+}
+
+.eink-item-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 80%;
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 500px) {
+  .eink-item {
+    max-width: 30%;
+    padding-bottom: 2rem;
+  }
+}
  
 
 /* NAV-MENU */
