@@ -1,0 +1,25 @@
+---
+label: Book
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: rating
+  label: rating
+- type: text
+  name: genre
+  label: genre
+- type: list
+  name: categories
+  label: categories
+- type: file
+  name: coverImage
+  label: coverImage
