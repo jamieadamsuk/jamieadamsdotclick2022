@@ -3,7 +3,6 @@ author = "John Lanchester"
 categories = ["book"]
 coverImage = "4fb8e9abc2647b37b38229223fd31bac.jpg"
 date = 2022-01-24T00:00:00Z
-draft = true
 genre = "fiction"
 rating = "👍👍👍"
 title = "The Wall"
