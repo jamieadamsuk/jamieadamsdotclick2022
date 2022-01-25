@@ -4,7 +4,7 @@ categories = ["book"]
 coverImage = "4fb8e9abc2647b37b38229223fd31bac.jpg"
 date = 2022-01-24T00:00:00Z
 genre = "fiction"
-rating = "👍👍👍"
+rating = "👍👍"
 title = "The Wall"
 
 +++
