@@ -10,4 +10,4 @@ title = "The Wall"
 +++
 A  dystopian tale of a future England that has been ravaged by climate change.  Rising sea levels necessitate construction of a monstrous wall around the island, patrolled by ‘Defenders’ who are tasked with keeping out any stray folk who would like to try for the safety of the shires inside.
 
-Clever concept, but didn’t grip.
+Clever concept with vast potential for world and character building, but ultimately shallow & boring. 
