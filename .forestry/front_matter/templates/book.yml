@@ -20,6 +20,9 @@ fields:
 - type: list
   name: categories
   label: categories
+  hidden: true
+  config:
+    use_select: false
 - type: file
   name: coverImage
   label: coverImage
