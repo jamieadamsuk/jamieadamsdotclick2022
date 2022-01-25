@@ -1,12 +1,14 @@
 +++
-author = "Pamela Paul"
+author = "John Lanchester"
 categories = ["book"]
-coverImage = "9780593136775-199x300.jpg"
-date = 2022-01-16T00:00:00Z
+coverImage = "4fb8e9abc2647b37b38229223fd31bac.jpg"
+date = 2022-01-24T00:00:00Z
 draft = true
-genre = "non-fiction"
+genre = "fiction"
 rating = "👍👍👍"
-title = "100 Things We've Lost to the Internet-(copy)"
+title = "The Wall"
 
 +++
-100 short essays on the things we've lost since the internet took over every aspect of our lives. I enjoyed the nostaligia, but this could have been fifty essays shorter and been a much better book. I mean, who the hell misses the TV Guide, or cheque books?
+A  dystopian tale of a future England that has been ravaged by climate change.  Rising sea levels necessitate construction of a monstrous wall around the island, patrolled by ‘Defenders’ who are tasked with keeping out any stray folk who would like to try for the safety of the shires inside.
+
+Clever concept, but didn’t grip.
