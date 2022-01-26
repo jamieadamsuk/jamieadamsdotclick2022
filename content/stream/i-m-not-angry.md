@@ -7,4 +7,4 @@ I’m not angry that Boris Johnson was quaffing birthday cake and hosting cheese
 
 When asked my opinion, I give a non-committal shrug. I don’t care. I wouldn’t be surprised if Boris Johnson, while at a press conference, picked up Larry the cat and drop kicked him across Downing Street. If he announced that he’d just disposed of Michael Gove’s limp corpse through the office shredder, then I might elicit a small ‘huh’. I’m just tired of hearing his name. The lies, as ridiculous and trivial as they often are, no longer surprise. The word ‘party’ has become a sound, devoid of meaning.
 
-I suspect many feel the same. But indifference is dangerous, and none of this is normal. We deserve better, and we should be angry.
+I suspect many feel the same. But indifference is dangerous, and none of this is normal. We deserve better, and it's right to be angry.
