@@ -3,7 +3,7 @@ date: 2022-01-27
 title: "Not that smart"
 ---
 
-Our Samsung TV is over ten years old. It’s only 1080p and doesn’t have any ‘smart’ features, but since we don’t watch a massive amount of TV, that’s just fine. I expect it to last a while yet.
+Our Samsung TV is over a decade old. It replaced an enormous rear-projection TV, that was also around a decade old. It's only 1080p and doesn’t have any ‘smart’ features, but since we don’t watch a massive amount of TV, that’s just fine. I expect it to last a while yet.
 
 How many TVs will you buy in your lifetime? You only buy a new one if the old one breaks, or becomes obsolete. That poses a problem for manufacturers, because there is an upper limit on the number of TVs that they can sell. 
 
