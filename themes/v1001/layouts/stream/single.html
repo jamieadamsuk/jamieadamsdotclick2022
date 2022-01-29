@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "masthead.html" . }}
+<main class="container">
+    <div class="page-content">
+        <header>
+            <div class="go-back">
+                <a href="https://jamieadams.click/stream/#{{ .File.TranslationBaseName }}">&larr; Back to Stream</a>
+            </div>
+            <div class="page-title">
+                <h1 class="title">{{ .Title }}</h1>
+            </div>
+        </header>
+        {{ .Content }}
+    </div>
+</main>
+
+{{ partial "footer.html" . }}

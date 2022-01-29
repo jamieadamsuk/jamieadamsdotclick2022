@@ -306,6 +306,10 @@ footer {
 
 /* STREAM */
 
+.go-back {
+  padding-bottom: 1rem;
+}
+
 .page-info {
   padding-bottom: 1rem;
 }

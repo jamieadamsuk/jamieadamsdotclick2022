@@ -1,4 +1,4 @@
-baseURL = 'https://jamieadams.click/'
+baseURL = 'http://jamieadams.click/'
 languageCode = 'en-us'
 title = 'Jamie'
 theme = 'v1001'

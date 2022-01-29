@@ -17,7 +17,7 @@
         <time>{{ .Date.Format "2006-01-02" }}</time>
       </div>
       <div class="stream-item-content">
-        <div class="stream-item-header"><a name="{{ .File.TranslationBaseName }}"><a href="#{{ .File.TranslationBaseName }}">{{ .Title }}</a></a></div>
+        <div class="stream-item-header"><a name="{{ .File.TranslationBaseName }}"><a href="{{ .Permalink }}">{{ .Title }}</a></a></div>
         <div class="stream-item-entry">{{ .Content }}</div>
       </div>
     </div>
