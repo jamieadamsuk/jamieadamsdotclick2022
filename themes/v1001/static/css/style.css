@@ -398,6 +398,10 @@ footer {
 
 /* MISC */
 
+.hide {
+  display: none;
+}
+
 .h-card {
   display: none;
 }
