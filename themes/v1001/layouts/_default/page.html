@@ -1,13 +1,13 @@
 {{ partial "header.html" . }}
 {{ partial "masthead.html" . }}
 <main class="container">
-  <div class="page-content">
+  <article class="page-content">
     <header>
-    <div class="page-title">
+    <div class="p-name page-title">
       <h1 class="title">{{ .Title }}</h1>
     </div>
     {{ if .Params.intro }}
-    <div class="page-intro">
+    <div class="e-summary page-intro">
       {{ .Params.intro }}
     </div>
     {{ end }}
@@ -17,8 +17,10 @@
     </div>
     {{ end }}
     </header>
+    <div class="e-content">
     {{ .Content }}
-  </div>
+    </div>
+  </article>
 </main>
 
 {{ partial "footer.html" . }}
