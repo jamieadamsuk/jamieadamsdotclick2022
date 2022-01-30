@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: jamieadams.click
+Token: 2a91044ac308e1eec14f43d27118b2a86374c93d827d945ab539d30f27ee95d8
