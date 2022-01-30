@@ -5,9 +5,15 @@
     <header>
     <div class="p-name page-title">
       <h1 class="title">{{ .Title }}</h1>
+      <div class="hide">
+        <time class="dt-published" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        <a class="u-url" href="{{ .Permalink }}">Permalink</a>
+        <a rel="author" class="p-author h-card" href="https://jamieadams.click/about/">Jamie Adams</a>
+        <img class="u-photo" src="/images/biopic.png" />  
+      </div>
     </div>
     {{ if .Params.intro }}
-    <div class="e-summary page-intro">
+    <div class="p-summary page-intro">
       {{ .Params.intro }}
     </div>
     {{ end }}
