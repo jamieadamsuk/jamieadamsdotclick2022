@@ -27,8 +27,7 @@
     {{ .Content }}
     </div>
   </article>
-  <div class="webmentions">
-    {{ getJSON (printf "https://webmention.io/api/mentions?target=%s" .Permalink | urlize) }}
+  <div id="webmentions">
   </div>
 </main>
 
