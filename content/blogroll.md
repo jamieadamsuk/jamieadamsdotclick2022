@@ -4,31 +4,25 @@ layout: page
 ---
 Back in the good old days, before all this social media nonsense, the easiest way to find more blogs to read was to consult a Blogroll – a simple, self-curated list of recommendations. Here’s mine, in no particular order:
 
-## Personal Blogs
+## Blogs
 
-- [Alan Ralph](https://alanralph.co.uk)
-- [Beneath the Borealis](https://beneaththeborealis.com)
-- [Clark Macleod](https://kelake.org)
 - [Dave Oleson](https://bushedpilotblog.wordpress.com)
-- [Off the Grid](https://deergarden.me)
-- [Doc Searl](https://blogs.harvard.edu/doc/)
+- [Doug Belshaw](https://dougbelshaw.com/blog/)
 - [Giles Turnbull](https://gilest.org/)
 - [James Van Dyne](https://jamesvandyne.com)
-- [Jamie Todd Rubin](https://jamierubin.net)
 - [Kev Quirk](https://kevq.uk)
-- [London Shortwave](https://blog.londonshortwave.com)
-- [Mike Crittenden](https://critter.blog/)
+- [The Marginalian](https://www.themarginalian.org)
 - [Otherhand](https://www.otherhand.org)
 - [Paul Capewell](https://paulcapewell.com/)
 - [Phil Gyford](https://www.gyford.com)
-- [Rachel](https://rachel.blog)
+- [Robin Rendle](https://www.robinrendle.com/notes/)
+- [Robin Sloan](https://www.robinsloan.com)
 - [The Overspill](https://theoverspill.blog/)
-- [Wordridden](https://wordridden.com)
 
 ## Newsletters
 
+- [Bookbear Express](https://ava.substack.com)
 - [Garbage Day](https://garbadeday.email)
-- [Tedium](https://tedium.co)
 - [Helen Lewis](https://helenlewis.substack.com)
-- [Winning the Internet](https://kill-the-newsletter.com)
-- [Uses This](https://usesthis.com/feed.atom)
+- [Money Stuff](https://www.bloomberg.com/account/newsletters/money-stuff)
+- [Supergranular](https://supergranular.substack.com)
