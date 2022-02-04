@@ -1,5 +1,5 @@
 ---
-date: 2022-02-14
+date: 2022-02-04
 title: "Screw you, Steve"
 ---
 [Existential Comics](https://www.existentialcomics.com) never fail to make me laugh:
