@@ -328,16 +328,18 @@ footer {
     width: 2px;
     background-color: var(--accent2);
     position: absolute;
-    top: 7px;
+    top: 30px;
     bottom: 0;
     left: 17px;
   }
 
   div.stream-item {
-    padding: 3px 0 0 20px;
+    padding: 25px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 5px;
     margin-bottom: 3rem;
+    background: white;
+    margin-left: 20px;
   }
 
   div.stream-item::after {
@@ -348,8 +350,8 @@ footer {
     height: 16px;
     border-radius: 50%;
     position: absolute;
-    top: 7px;
-    left: -20px;
+    top: 25px;
+    left: -40px;
   }
 
   .stream-item-header > a {
@@ -384,6 +386,7 @@ footer {
 .book-cover {
   width: 125px;
   margin-bottom: 1rem;
+  border-radius: 3px;
 }
 
 .stream-item-book-metadata {
@@ -427,7 +430,7 @@ small {
   font-size: 60%;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
 
   body {
     font-size: 100%;
@@ -437,14 +440,11 @@ small {
     margin-left: 100px;
   }
 
-  div.stream-item {
-    padding: 0px 0 0 20px;
-  }
-
   .stream-meta {
     position: absolute;
-    left: -130px;
+    left: -150px;
     width: 100px;
+    top: 18px;
   }
 
   .book-cover {
@@ -473,11 +473,12 @@ small {
   }
 
   div.stream-item::after {
-    left: -36px;
+    left: -37px;
   }
 
   div.stream-item {
-    padding: 3px 0 0 0px;
+    padding: 15px;
+    margin-left: 0px;
   }
 
   .stream-item-entry > p {
