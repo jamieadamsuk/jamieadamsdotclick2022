@@ -1,6 +1,6 @@
 ---
 date: 2022-01-26
-title: "I'm not angry"
+title: "I'm not angry, I'm dissapointed."
 ---
 So, Boris Johnson was quaffing birthday cake and hosting cheese & wine parties while the rest of us were bound to our homes. I mean, it’s not great, but  Boris is a known quantity: he's a bad Prime Minister and a terrible human being. We should expect no less. His entire career has been one of failing upwards with the grace of a drunken cow. I’m envious, really. If I was consistently that shit, I’d be homeless. Boris is Prime Minister! 
 
