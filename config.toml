@@ -1,7 +1,7 @@
-baseURL = 'https://staging.jamieadams.click/'
+baseURL = 'http://staging.jamieadams.click/'
 languageCode = 'en-us'
 title = 'Jamie'
 theme = 'v1001'
 author = "Jamie"
 [params]
-  mainSections = ['stream', 'bookshelf', 'essays']
+  mainSections = ['stream', 'bookshelf', 'essays', 'weeknotes']

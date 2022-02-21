@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ partial "masthead.html" . }}
+<main class="container">
+  <header>
+  <div class="page-title">
+    <h1 class="title">{{ .Title }}</h1>
+  </div>
+  </header>
+  {{ .Content }}
+  {{ range .Data.Pages }}
+  <div class="item">
+      <h3><a href="{{ .Permalink }}" class="black">{{ .Title }}</a></h3>
+      <p>{{ .Params.intro }}</p>
+  </div>
+  {{ end }}
+
+</main>
+
+{{ partial "footer.html" . }}
