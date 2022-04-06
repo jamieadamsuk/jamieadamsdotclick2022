@@ -14,6 +14,6 @@ A couple of months ago, someone asked an open question Hacker News - '[What is i
 
 _Well, at least I haven’t got that to deal with,_ I thought.
 
-This morning, I woke up unable to raise my arm above chest level. My elbow is red, hot & swollen with fluid. I didn’t bang or stress it—it just decided that it would not play its usual role for me today.
+This morning, my arm decided that it would not play its usual role. My elbow is red, hot & swollen with fluid. I didn't do anything to it, that I can recall.
 
 So, I guess this is how it is now.

@@ -5,11 +5,6 @@ categories:
   - "notes"
 tags: 
   - "photos"
-summary: >
-  ![](/images/img_0530-1024x759.jpg)
-  
-  
-  And more
 ---
 
 ![](/images/img_0530-1024x759.jpg)

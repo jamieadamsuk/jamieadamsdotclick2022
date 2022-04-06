@@ -4,8 +4,7 @@ date: "2021-01-11"
 coverImage: "lpzy4da9aro-1.jpg"
 ---
 
- I knew that if I kept blogging for long enough that it would become fashionable again, and it is, sort of, but not in the way that I imagined. While more people are blogging from their own domain — which is fabulous — an enormous number of people are choosing newsletter platforms like Substack and Buttondown instead. 
-<!--more--> 
+I knew that if I kept blogging for long enough that it would become fashionable again, and it is, sort of, but not in the way that I imagined. While more people are blogging from their own domain — which is fabulous — an enormous number of people are choosing newsletter platforms like Substack and Buttondown instead. 
 
 Blogging isn’t easy. Ask for advice on the internet and you’ll end up with something like this:
 

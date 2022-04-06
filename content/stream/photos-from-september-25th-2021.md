@@ -10,6 +10,3 @@ categories:
 ![](/images/img_0777-edited.jpg)
     
 ![](/images/img_0780-edited.jpg)
-    
-
-City of Lincoln, Lincolnshire
